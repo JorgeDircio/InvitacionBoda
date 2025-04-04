@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitación de Boda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Música de fondo -->
+  <audio id="bg-music" autoplay loop>
+    <source src="audio_fondo.webm" type="audio/webm" />
+    Tu navegador no soporta audio.
+  </audio>
+  <button id="music-control" title="Presiona para activar o pausar la música">
+	🎵 Presióname 💗
+  </button>
+
+  <div class="petals">
+	<div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div>
+	<div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div>
+	<div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div>
+	<div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div><div class="petal"></div>
+  </div>
+  
+
+  <!-- Animación de Sobre -->
+  <section class="envelope-section" id="envelopeSection">
+    <div class="envelope" id="envelope">
+      <div class="flap"></div>
+      <div class="body"></div>
+      <div class="text">Haz clic para abrir</div>
+    </div>
+  </section>
+
+  <!-- Contenido de la Invitación -->
+  <main>
+    <section class="invitation-section hidden" id="invitationSection">
+      <div class="invitation-card">
+		<img src="img/novios.jpg" alt="Jessica y Gerardo" class="photo-couple" />
+        <h1>Jessica y Gerardo</h1>
+        <p>Estamos encantados de invitarte a la celebración de nuestro matrimonio.</p>
+
+        <h2>Ceremonia Religiosa</h2>
+        <p><strong>Sábado 17 de mayo de 2025</strong> a las <strong>4:00 PM</strong></p>
+
+        <h3>📍 Recepción:</h3>
+        <p>San Marcos Gro, Calle Morelos, Colonia El Cántaro</p>
+
+        <h3>👨‍👩‍👧 Nuestros Padres</h3>
+        <p>Baltazar Cesar Aleman Isidor & Guadalupe Villanueva Bibiano</p>
+        <p>Catalino Villanueva Memije & Marisol Heredia Navarrete</p>
+
+        <h3>💍 Padrinos</h3>
+        <ul>
+          <li><strong>Velación:</strong> Dr. Macario Navarrete Chávez y Dra. Enit Tinoco Cerros</li>
+          <li><strong>Arras:</strong> C.P. Ricardo Tereza y Guadalupe García Ramírez</li>
+          <li><strong>Anillos:</strong> Lic. Kristián Villazana Cortez y Lic. Judith Nicandra Cuevas Alcaraz</li>
+          <li><strong>Lazo:</strong> Dr. Ransel Martínez y Steicy Herrera Villanueva</li>
+          <li><strong>Libro y Rosario:</strong> Sr. Sergio Galindo y Graciela Jijón</li>
+        </ul>
+
+        <h3>🎁 Sugerencia de Regalo</h3>
+        <p>Lo más importante para nosotros es que puedas acompañarnos ese día tan especial. Pero si deseas hacernos un obsequio, te sugerimos:</p>
+        
+        <div class="gift-section">
+          <img src="img/sobre_dinero.jpg" alt="Lluvia de sobres" />
+          <p><strong>Lluvia de Sobres</strong><br>Gracias por permitirnos elegir nuestro regalo.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Con mucho amor, Jessica & Gerardo 💕 | 17 de mayo 2025
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
